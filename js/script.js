@@ -6,7 +6,8 @@ createApp({
     // aggiungere in data il messaggio da voler stampare
     data(){
         return{
-            text: "<h1>Hello World</h1>"
+            text: "<h1>Hello World</h1>",
+            image: "nice.jpeg"
         }
     }
     // utiliziamo .mount per permettere di stampare nell'html
